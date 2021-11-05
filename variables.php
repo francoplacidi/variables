@@ -1,38 +1,38 @@
 <?php
 
-//Variable numerica
-$numero = 5;
-echo "Esto es una variable numero: $numero<br>";
-var_dump($numero);
+//Numerical variable
+$number = 5;
+echo "This is a numerical variable: $number<br>";
+var_dump($number);
 echo "<br><br>";
 
-//Variable texto
-$palabra = "Palabra";
-echo "Esto es una variable llamada: $palabra<br>";
-var_dump($palabra);
+//Text variable
+$word = "Word";
+echo "This is a text variable: $word<br>";
+var_dump($word);
 echo "<br><br>";
 
-//Variable booleana
-$boleana = true;
-echo "Esto es una variable booleana: $boleana<br>";
-var_dump($boleana);
+//Boolean variable
+$boolean = true;
+echo "This is a boolean variable: $boolean<br>";
+var_dump($boolean);
 echo "<br><br>";
 
-//Variable arreglo
-$colores = Array("Rojo", "Amarillo", "Azul");
-echo "Esto es una variable arreglo: $colores[1]<br>";
-var_dump($colores);
+//Array variable
+$colour = Array("Red", "Yellow", "Blue");
+echo "This is an array variable: $colour[1]<br>";
+var_dump($colour);
 echo "<br><br>";
 
-//Variable arreglo con propiedades
-$verduras = Array("verdura1"=>"lechuga", "verdura2"=>"cebolla");
-echo "Esto es una variable arreglo con propiedades: $verduras[verdura1]<br>";
-var_dump($verduras);
+//Array variable with properties
+$vegetables = Array("vegetable1"=>"lettuce", "vegetable2"=>"onion");
+echo "This is an array variable with properties: $vegetables[vegetable1]<br>";
+var_dump($vegetables);
 echo "<br><br>";
 
-//Variables objeto
-$frutas = (object)["fruta1"=>"pera", "fruta2"=>"manzana"];
-echo "Esto es una variable objeto: $frutas->fruta1 y $frutas->fruta2<br>";
-var_dump($frutas);
+//Object variable
+$fruits = (object)["fruit1"=>"pear", "fruit2"=>"apple"];
+echo "This is an object variable: $fruits->fruit1 y $fruits->fruit2<br>";
+var_dump($fruits);
 echo "<br><br>";
 ?>
